@@ -128,6 +128,7 @@
     let a = document.createElement("a");
     a.href = `https://github.com/trending/${encodeURIComponent(urlName)}?since=daily`;
     a.innerHTML = name;
+    a.target = "_blank";
     return a;
   }
 
